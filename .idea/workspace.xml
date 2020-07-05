@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2979a3b-5ea2-44ab-b9ca-95ae6fa593f5" name="Default Changelist" comment="">
+    <list default="true" id="c2979a3b-5ea2-44ab-b9ca-95ae6fa593f5" name="Default Changelist" comment="Add DB">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,7 +59,30 @@
       <option name="presentableId" value="Default" />
       <updated>1593852852661</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add DB">
+      <created>1593928378623</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593928378623</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add DB" />
   </component>
   <component name="WindowStateProjectService">
     <state x="362" y="42" key="FileChooserDialogImpl" timestamp="1593853030871">
@@ -49,5 +97,9 @@
       <screen x="0" y="0" width="1164" height="576" />
     </state>
     <state x="388" y="0" key="Github.UntrackedFilesDialog/0.0.1164.576@0.0.1164.576" timestamp="1593853078977" />
+    <state x="174" y="20" key="Vcs.Push.Dialog.v2" timestamp="1593928400670">
+      <screen x="0" y="0" width="1164" height="576" />
+    </state>
+    <state x="174" y="20" key="Vcs.Push.Dialog.v2/0.0.1164.576@0.0.1164.576" timestamp="1593928400670" />
   </component>
 </project>

@@ -16,4 +16,9 @@ cur = db.cursor()
 cur.execute('SHOW DATABASES')
 print(cur.fetchall())
 
+db.select_db("zabbix")
+
+cur.execute('SHOW TABLES')
+print(cur.fetchall())
+
 db.close
