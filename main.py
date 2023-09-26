@@ -8,8 +8,6 @@ file_name = "www.access-" + str(name_date) + ".log"
 remote_path = "/var/log/nginx/" + file_name
 
 user_info = Args(sys.argv[1:])
-print(user_info['user'], user_info['password'], user_info['host'], user_info['port'], user_info['email'])
-print(user_info['sender_password'], user_info['to'])
 
 DownloadFile(user_info['host'], user_info['port'], user_info['user'], user_info['password'], remote_path, file_name)
 
