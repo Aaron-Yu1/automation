@@ -106,6 +106,8 @@ def Web_Access(file_name):
     access = {}
     with open(file_name, 'r', encoding="utf-8") as f:
         for i in f:
+            if '\\' in i:
+                i = i.replace('\\', '\\\\')
             load_dict = json.loads(i)
             # print(load_dict)
             clint_ip = load_dict['clientip']
@@ -122,6 +124,8 @@ def TotalAccess(file_name):
     total = 0
     with open(file_name, 'r', encoding="utf-8") as f:
         for i in f:
+            if '\\' in i:
+                i = i.replace('\\', '\\\\')
             load_dict = json.loads(i)
             total = total + 1
 
